@@ -21,7 +21,7 @@ FoilScript will have this "stuff" that JS doesn't:
 * `#` operator for [soft-binding of 'this'](https://gist.github.com/getify/4596011) (I hope, I dunno)
 * `@` operator for [statement-localized continuations](https://gist.github.com/getify/727232) (I hope, I dunno)
 * `a ? b` shortened "ternary" where the `:` clause is [optional and defaulted to](http://mozilla.6506.n7.nabble.com/Existential-operator-tp109073p109123.html) `undefined`
-* regular expressions will have a `/n` flag that lets you turn off defaulted capturing of `( )` groups
+* regular expressions will have a ['/n' flag that lets you turn off defaulted capturing](https://mail.mozilla.org/pipermail/es-discuss/2012-March/021387.html) of `( )` groups
 * a few new annotations (similar to asm.js) that let you control implicit coercions [more sanely](https://gist.github.com/getify/3057796)
 * the compiler will include some "linting" like the rules proposed in ["use restrict";](http://restrictmode.org)
 * ...more
