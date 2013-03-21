@@ -30,7 +30,7 @@ FoilScript will have this "stuff" that JS doesn't:
 
 FoilScript will be extremely similar to (and almost syntax-compatible with) JavaScript. That's a key differentiator to something like CoffeeScript. The parts that are different will be small (but useful) compared to what's still valid JS.
 
-Think of it a little bit like LESS compared to real CSS. LESS looks like CSS and has a few differences. As opposed to something like SASS which is more like CoffeeScript to JS.
+Think of it a little bit like LESS compared to real CSS. LESS looks like CSS and has a few differences. As opposed to something like SASS (**not SCSS** but indentation-sensitive SASS) which is more like CoffeeScript to JS.
 
 FoilScript's compiler will use a JS parser (hopefully an ES6 one) that has some tweaks to it. It will not rewrite most of your code, but will pass it through un-touched (also so different from CoffeeScript).
 
