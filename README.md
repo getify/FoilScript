@@ -2,6 +2,13 @@
 
 FoilScript: a new dialect of JS that fixes the sucky parts but still looks and feels like JS.
 
+## Why?
+Some people will assume that I'm making FoilScript because I dislike JS. The truth is, I love JS. Seriously. I'm all in on JS. I just have things I don't like about it. In fact, there's a few things I hate about it.
+
+The problem is, I've tried to get these things "fixed" in JS by making proposals, and I've been told several times, basically, "you're doing it wrong." Get shut down enough times, and you give up.
+
+But I'm not giving up on JS. I'm just going to make the fixes myself. I'm not making a new language, I'm fixing what I hate about JS. The stuff that I love about JS is staying. FoilScript will look an awful lot like JS, on purpose. Because I love JS. And FoilScript will transpile to JS. In fact, most FoilScript will just be JS itself. Only the new stuff gets transpiled.
+
 ## What's out
 JS "stuff" that FoilScript will not have:
 
