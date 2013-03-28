@@ -25,7 +25,7 @@ JS "stuff" that FoilScript will not have:
 ## What's in
 FoilScript will have this "stuff" that JS doesn't:
 
-* `currentThis` [binding for determining](https://gist.github.com/getify/5253319) [where](https://gist.github.com/getify/5254459) in the `[[Prototype]]` chain the current executing function is found
+* `currentThis` [binding](https://gist.github.com/getify/5253319) for [determining where](https://gist.github.com/getify/5254459) in the `[[Prototype]]` chain the current executing function is found (basically `currentThis.__proto__` is equivalent to a `super`)
 * `#` operator for [soft-binding of 'this'](https://gist.github.com/getify/4596011) (I hope, I dunno)
 * `@` operator for [statement-localized continuations](https://gist.github.com/getify/727232) (I hope, I dunno)
 * `a ? b` shortened "ternary" where the `:` clause is [optional and defaulted to](http://mozilla.6506.n7.nabble.com/Existential-operator-tp109073p109123.html) `undefined`
