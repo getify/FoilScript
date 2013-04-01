@@ -25,6 +25,7 @@ JS "stuff" that FoilScript will not have:
 ## What's in
 FoilScript will have this "stuff" that JS doesn't:
 
+* `let (foo = 42) { .. }` styled let-block-statements (even though [ES6 abandoned](https://twitter.com/littlecalculist/status/318726015432159233) them) via something like [BlockScoper](https://github.com/getify/BlockScoper.js)'s technique
 * `currentThis` [binding](https://gist.github.com/getify/5253319) for [determining where](https://gist.github.com/getify/5254459) in the `[[Prototype]]` chain the current executing function is found (basically `currentThis.__proto__` is equivalent to a `super`)
 * `#` operator for [soft-binding of 'this'](https://gist.github.com/getify/4596011) (I hope, I dunno)
 * `@` operator for [statement-localized continuations](https://gist.github.com/getify/727232) (I hope, I dunno)
