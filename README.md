@@ -1,6 +1,6 @@
 # FoilScript
 
-FoilScript: a new dialect of JS that fixes the sucky parts but still looks and feels like JS.
+FoilScript: a new ~~dialect~~ ~~accent~~ variant of JS that fixes the sucky parts but still looks and feels like JS.
 
 ## Why?
 Some people will assume that I'm making FoilScript because I dislike JS. The truth is, I love JS. Seriously. I'm all in on JS. I just have things I don't like about it. In fact, there's a few things I hate about it.
@@ -25,6 +25,7 @@ JS "stuff" that FoilScript will not have:
 ## What's in
 FoilScript will have this "stuff" that JS doesn't:
 
+* `(a+b)*(c*d)` type expressions will automatically be [FOIL expanded](http://en.wikipedia.org/wiki/FOIL_method) to `a*c + a*d + b*c + b*d` (**note:** this part is kind of a joke but is the namesake feature for this language!)
 * `NaN` will be renamed `InvalidNum`, in addition to `isNaN()` becoming `isInvalidNum()`
 * `let (foo = 42) { .. }` styled let-block-statements (even though [ES6 abandoned](https://twitter.com/littlecalculist/status/318726015432159233) them) via something like [BlockScoper](https://github.com/getify/BlockScoper.js)'s technique
 * `currentThis` [binding](https://gist.github.com/getify/5253319) for [determining where](https://gist.github.com/getify/5254459) in the `[[Prototype]]` chain the current executing function is found (basically `currentThis.__proto__` is equivalent to a `super`)
