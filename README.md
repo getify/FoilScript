@@ -25,7 +25,7 @@ JS "stuff" that FoilScript will not have:
 ## What's in
 FoilScript will have this "stuff" that JS doesn't:
 
-* `(a+b)*(c*d)` type expressions will automatically be [FOIL expanded](http://en.wikipedia.org/wiki/FOIL_method) to `a*c + a*d + b*c + b*d` (**note:** this part is kind of a joke but is the namesake feature for this language!)
+* `(a+b)*(c+d)` type expressions will automatically be [FOIL expanded](http://en.wikipedia.org/wiki/FOIL_method) to `a*c + a*d + b*c + b*d` (**note:** this part is kind of a joke but is the namesake feature for this language!)
 * [conditional catch clauses](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/try...catch#Conditional_catch_clauses), where you can do `try { .. } catch (err if err instanceof TypeError)` style coding
 * `NaN` will be renamed `InvalidNum`, in addition to `isNaN()` becoming `isInvalidNum()`
 * `let (foo = 42) { .. }` styled let-block-statements (even though [ES6 abandoned](https://twitter.com/littlecalculist/status/318726015432159233) them) via something like [BlockScoper](https://github.com/getify/BlockScoper.js)'s technique
